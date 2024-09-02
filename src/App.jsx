@@ -1,10 +1,10 @@
 import "./App.css";
-import LotteryTicket from "./components/lotteryTicket/LotteryTicket.jsx";
+import Lottery from "./components/lotteryTicket/Lottery.jsx";
 
 export default function App() {
   return (
     <>
-      <LotteryTicket/>
+      <Lottery n={3} winningSum={15} />
     </>
   );
 }
